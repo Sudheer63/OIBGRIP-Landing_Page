@@ -1,0 +1,421 @@
+.logo img
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    cursor: pointer; 
+    animation: mymove 3s infinite;
+}
+@keyframes mymove {
+    from {left: -200px;}
+    to {left: 30px;}
+  }
+.title img
+{
+    position: absolute;
+    top: 4px;
+    left: 110px;
+}
+.start{
+    background-color: rgb(247, 249, 249);
+}
+.start img
+{
+    opacity: 0.6;
+    
+}
+.header{
+    position: absolute;
+    top: 40px;
+    left: 600px;
+}
+.header button
+{
+    height: 30px;
+    width: max-content;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-right: 30px;
+    border-radius: 10%;
+    border-color: rgb(137, 189, 197);
+    box-shadow: 2px 2px rgba(15, 15, 1, 0.605);  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    cursor: pointer;
+    
+}
+.header button:hover{
+    color:coral
+    
+}
+.img-header
+{
+  position: absolute;
+  top: 190px;
+  left: 440px;
+}
+.img-header p
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    -webkit-text-stroke: 0.8pt;
+    -webkit-text-stroke-color: white;
+    text-transform: capitalize;
+}
+.img-header button{
+    height: 40px;
+    width: max-content;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    background-color: black;
+    color: rgb(16, 2, 2);
+    margin-right: 30px;
+    border-radius: 18%;
+    border-color: rgb(197, 197, 196);
+    box-shadow: 2px 2px rgba(15, 15, 1, 0.605);  
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    font-size: 18px;
+    font-weight: 900;
+    color: whitesmoke;
+    opacity: 0.8;
+    position: absolute;
+    top: 120px;
+    left: 200px;
+    cursor: pointer;
+}
+.terms{
+    position: absolute;
+    top: 540px;
+   
+
+}
+.terms h5{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: capitalize;
+    
+}
+.service{
+    position: absolute;
+    top: 585px;
+    padding-bottom: 20px;
+
+    /* background-color: rgba(62, 61, 61, 0.837); */
+    /* background-color: rgb(54, 51, 51); */
+}
+.service h1
+{
+    font-size: 55px;
+    font-family: sans-serif;
+    color: rgb(245, 245, 239);
+    text-align: center;
+    /* -webkit-text-stroke: 1.3pt;
+    -webkit-text-stroke-color: rgb(16, 18, 24); */
+    text-transform: capitalize;
+}
+.service span
+{
+    background-color: black;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+.outer
+{
+    height: fit-content;
+    max-width: fit-content;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: blanchedalmond;
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px 4px grey;
+    border-top: 2px;
+    padding-bottom: 20px;
+    
+}
+.inner img
+{
+    height: 200px;
+    width : 200px;
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px 4px grey;
+    background-color:whitesmoke;
+    align-items: center;
+}
+.a1
+{
+    position: absolute;
+    top: 360px;
+    left: 160px;
+    font-size: medium;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    text-transform: uppercase;
+}
+.a2
+{
+    position: absolute;
+    top: 360px;
+    left: 520px;
+    font-size: medium;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    text-transform: uppercase;
+}
+.a3
+{
+    position: absolute;
+    top: 360px;
+    left: 870px;
+    font-size: medium;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    text-transform: uppercase;
+}
+.a4
+{
+    position: absolute;
+    top: 360px;
+    left: 1230px;
+    font-size: medium;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    text-transform: uppercase;
+}
+.a5
+{
+    position: absolute;
+    top: 630px;
+    left: 140px;
+    font-size: medium;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    text-transform: uppercase;
+}
+.a6
+{
+    position: absolute;
+    top: 630px;
+    left: 510px;
+    font-size: medium;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    text-transform: uppercase;
+}
+.a7
+{
+    position: absolute;
+    top: 630px;
+    left: 880px;
+    font-size: medium;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    text-transform: uppercase;
+}
+.next
+{
+    position: relative;
+    top: 930px;
+}
+.slider {
+    width: 500px;
+    height: 300x;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px 4px grey;
+    background-color:whitesmoke;
+    position: absolute;
+    left:50px;
+}
+  .image-container {
+    width: 1500px;
+    background-color: rgb(10, 9, 9);
+    height: 300px;
+    clear: both;
+    position: relative;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+}
+.slide {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+  #slide-1:target ~ .image-container {
+    left: 0px;
+}
+  #slide-2:target ~ .image-container {
+    left: -500px;
+}
+  #slide-3:target ~ .image-container {
+    left: -1000px;
+}
+.buttons {
+    position: relative;
+    background-color: transparent;
+}
+.buttons a {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: rgb(9, 254, 9);
+}
+.header1{
+    position: relative;
+    top: 750px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.header1 h1
+{
+    font-size: 55px;
+    font-family: sans-serif;
+    color: rgb(245, 245, 239);
+    text-align: center;
+    /* -webkit-text-stroke: 1.3pt;
+    -webkit-text-stroke-color: rgb(16, 18, 24); */
+    text-transform: capitalize;
+}
+.header1 span
+{
+    background-color: black;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+.msg
+{
+    height: 50px;
+    width: 850px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: justify;
+    font-family:'Courier New', Courier, monospace ;
+    position: relative;
+    top: 770px;
+    left: 600px;
+}
+.msg button{
+    margin-left: 30px;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.end
+{
+    position: relative;
+    top: 1300px;
+    background-color: black;
+    margin-top: -130px;
+}
+.end img{
+    opacity: 0.5;
+    display: flex;
+}
+.feedback
+{
+    position: absolute;
+    top: 1970px;
+    height: 400px;
+    width:400px;
+    cursor: text;
+}
+.form
+{
+    height:450px;
+    width:400px;
+    background-color: white;
+    position: relative;
+    top: 30px;
+    left: 1000px;
+    border-radius: 10px;
+
+}
+.form button{
+    position: relative;
+    top: -10px;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: 1px 1px 1px 1px grey;
+    cursor:pointer;
+}
+.form input
+{
+    height: 40px;
+    width: 300px;
+    margin-bottom: 40px;
+    margin-left: 25px;
+}
+.icon
+{
+    position: relative;
+    top:800px;
+    margin-left: -50px;
+}
+.icon .img-store 
+{
+    height:300px;
+    width: 330px;
+    position: relative;
+    left:100px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 15px;
+    opacity: 0.6;
+}
+.img-store img
+{
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+.last{
+    position: relative;
+    top: 80px;
+}
+body
+{
+    padding: 0px;
+    margin: 0px;
+    background-color: mintcream;
+    /* cursor: default; */
+    
+}
+marquee{
+    width: 141%;
+}
